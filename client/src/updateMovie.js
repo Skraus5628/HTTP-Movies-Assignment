@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const updateMovie = props =>{
+const UpdateMovie = props =>{
     const [edit, setEdit] = useState({
         title: "",
         director: "",
@@ -54,4 +54,4 @@ const updateMovie = props =>{
 }
 
 
-export default updateMovie;
+export default UpdateMovie;
